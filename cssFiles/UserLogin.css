@@ -1,0 +1,34 @@
+.enterUsername,
+.enterPassword {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 28px;
+  padding-left: 10px;
+}
+.login-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 55px;
+  width: 200px;
+  border-radius: 7px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 40px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+.login-btn:hover {
+  background-color: rgb(86, 56, 175);
+  transition-duration: 0.4s;
+  color: white;
+}
+
+.login-link {
+  text-decoration: none;
+}
