@@ -5,7 +5,6 @@
   margin-right: auto;
   height: 50px;
   width: 400px;
-  margin-bottom: 20px;
   border-radius: 7px;
   font-family: "Pixelify Sans", sans-serif;
   font-size: 28px;
@@ -31,4 +30,10 @@
 
 .login-link {
   text-decoration: none;
+}
+.error-message {
+  text-align: center;
+  color: red;
+  font-family: "Pixelify Sans";
+  font-size: 20px;
 }

@@ -1,0 +1,57 @@
+.contact-def {
+  font-size: 20px;
+}
+.contact-section {
+  background-image: url("https://cdna.artstation.com/p/assets/images/images/019/969/350/large/florian-mazreku-outcasts-background-final.jpg?1565792939");
+  background-size: cover;
+}
+
+.img {
+  height: 50px;
+}
+.delete-icon {
+  height: 20px;
+  background-color: transparent;
+  border: none;
+}
+.contact-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.contact-icon {
+  height: 100px;
+}
+.contact {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  list-style-type: none;
+  background-color: white;
+  margin-right: 1000px;
+}
+.contact-img {
+  border-radius: 30px;
+}
+input {
+  font-family: "Pixelify Sans";
+  height: 30px;
+  width: 500px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.pixel-font {
+  font-family: "Pixelify Sans";
+  text-align: center;
+  margin-left: 150px;
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+}

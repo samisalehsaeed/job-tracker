@@ -1,0 +1,107 @@
+.calendar-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: white;
+}
+.title {
+  color: white;
+  text-align: center;
+}
+.calendar-section {
+  padding-top: 10px;
+  padding-right: 300px;
+  padding-left: 500px;
+  font-size: 32px;
+  background-image: url("https://i.pinimg.com/originals/81/34/08/81340844a99a35cc7993166cbd9b5866.gif");
+  background-size: cover;
+}
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 27px;
+}
+
+.calendar-weekday {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(254, 254, 254);
+}
+
+.calendar-day {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid rgb(97, 46, 114);
+  color: rgb(56, 27, 66);
+}
+
+.current-month {
+  background-color: #f5dada;
+  border-radius: 10px;
+}
+
+.other-month {
+  background-color: #b9a8a8;
+  border-radius: 10px;
+}
+
+.events-container {
+  margin-top: 5px;
+}
+
+.calendar-event {
+  background-color: #87cefa;
+  padding: 2px;
+  margin-top: 2px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.pixel-btn {
+  font-family: "Pixelify Sans";
+  border: none;
+  font-size: 30px;
+  background-color: rgb(238, 188, 188);
+  color: white;
+  border-radius: 20px;
+}
+.add-event-form {
+  margin-top: 70px;
+  color: white;
+}
+
+.add-event-form form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Pixelify Sans";
+}
+
+.add-event-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+  font-family: "Pixelify Sans";
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 162vh;
+}
+
+.add-event-form button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Pixelify Sans";
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.add-event-form button:hover {
+  background-color: #45a049;
+}

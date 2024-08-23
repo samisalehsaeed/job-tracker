@@ -13,17 +13,22 @@ export default function Navigation() {
           <div className="nav-links">
             <br />
             <br />
-            <a href="#">Calendar</a>
+            <a href="#calendar">Calendar</a>
             <br />
             <br />
             <br />
             <br />
-            <a href="#">Manage Jobs</a>
+            <a href="#managejobs">Manage Jobs</a>
             <br />
             <br />
             <br />
             <br />
-            <a href="#">Network</a>
+            <a href="#contacts">Contacts</a>
+            <br />
+            <br />
+            <br />
+            <br />
+            <a href="#networking">Networking</a>
           </div>
         </ul>
       </div>

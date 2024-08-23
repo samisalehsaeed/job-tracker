@@ -1,0 +1,84 @@
+.jobs-section {
+  padding: 20px;
+  margin: 0 auto;
+  background-image: url("https://wallpapercave.com/wp/wp9137845.png");
+  background-size: cover;
+}
+.center-txt {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.job-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.job-form input {
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.job-form button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: "Pixelify Sans";
+}
+
+.kanban-board {
+  display: flex;
+  gap: 20px;
+}
+
+.kanban-column {
+  flex: 1;
+  background-color: #dfbfdfef;
+  border-radius: 4px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.kanban-column h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.kanban-column-content {
+  min-height: 200px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  border-radius: 10px;
+}
+
+.kanban-item {
+  padding: 10px;
+  background-color: #f0d2f0;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kanban-item-actions button {
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.dragging {
+  background-color: #c4c7c9;
+}
+
+.dragging-over {
+  background-color: #dfe1e6;
+}

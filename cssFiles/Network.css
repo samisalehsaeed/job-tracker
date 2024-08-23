@@ -1,0 +1,43 @@
+.network-section {
+  background-image: url("https://i.pinimg.com/originals/0b/6d/83/0b6d83022b5326ca71c715e7c1743dfb.jpg");
+  background-size: cover;
+}
+
+.linkedin {
+  padding-top: 10px;
+  height: 100px;
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-bottom: 75px;
+}
+.network-title {
+  text-align: center;
+  color: white;
+}
+.network-def {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.eventbrite {
+  padding-top: 10px;
+  height: 250px;
+  border-radius: 20px;
+  padding-right: 20px;
+}
+.indeed {
+  padding-top: 10px;
+  height: 150px;
+  border-radius: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+.jobcase {
+  padding-bottom: 90px;
+  padding-left: 120px;
+}
+.yt-vid {
+  padding-left: 270px;
+  border: none;
+}

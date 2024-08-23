@@ -5,14 +5,20 @@ export default function UserLogin() {
   return (
     <>
       <form className="authorization">
-        <input type="text" className="enterUsername" placeholder="Username" />
+        <input
+          type="text"
+          className="enterUsername"
+          placeholder="Username"
+          required
+        />
         <input
           type="password"
           className="enterPassword"
           placeholder="Password"
+          required
         />
         <Link className="login-link" to="/Home">
-          <button className="login-btn">LOGIN</button>
+          <button className="login-btn">LOGIN</button>n{" "}
         </Link>
       </form>
     </>

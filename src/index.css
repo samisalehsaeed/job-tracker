@@ -3,12 +3,13 @@
   scroll-behavior: smooth;
 }
 .row {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   height: 100vh;
-  border-bottom: 5px solid black;
+  border-bottom: 2px solid black;
   font-family: "Pixelify Sans";
   color: black;
-  padding-left: 100px;
+  padding-left: 250px;
+  padding-right: 10px;
   background-color: rgb(255, 255, 255);
 }
